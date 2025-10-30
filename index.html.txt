@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhananjay – Creations Collab</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #003366;
+  overflow-x: hidden;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: linear-gradient(90deg, #ffffff 0%, #e6f0ff 100%);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #003366;
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  margin: 8px 15px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom right, #ffffff, #e6f0ff);
+}
+
+.hero img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  box-shadow: 0 0 20px rgba(0,123,255,0.3);
+}
+
+.hero h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 16px;
+  max-width: 650px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  padding: 0 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0055cc;
+  margin-bottom: 40px;
+}
+
+.explore-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 80px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media (max-width: 768px) {
+  header {
+    padding: 15px 25px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 6px 10px;
+    font-size: 15px;
+  }
+
+  .hero {
+    padding: 70px 15px;
+  }
+
+  .hero img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+
+  .explore-btn {
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  .logo img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  nav a {
+    margin: 5px 8px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .tagline {
+    font-size: 15px;
+  }
+
+  .explore-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 12px 0;
+  }
+}
+</style>
+
+<script>
+function scrollToNextSection() {
+  window.scrollTo({
+    top: document.body.scrollHeight / 3,
+    behavior: 'smooth'
+  });
+}
+</script>
+
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="https://i.ibb.co/9f0sB0D/cropped-circle-image-7.png" alt="Logo">
+    <h1>Dhananjay – Creations Collab</h1>
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="https://i.ibb.co/9f0sB0D/cropped-circle-image-7.png" alt="Dhananjay">
+  <h2>Hi! I'm Dhananjay</h2>
+  <p>Passionate about technology, education, and social reform. I strive to create impactful solutions that bridge gaps and foster inclusive growth.</p>
+  <div class="tagline">Empowering Change through Knowledge and Action</div>
+  <button class="explore-btn" onclick="scrollToNextSection()">Explore</button>
+</section>
+
+<footer>
+  © 2025 Dhananjaymaestro Creations | All Rights Reserved.
+</footer>
+
+</body>
+</html>
